@@ -1,9 +1,24 @@
+html {
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  cursor:url("/images/mousecursor.png"), default;
+  height:100%;
+  width: 100%;
+
+}
 
 
-html{
-overflow: hidden;
-scroll-behavior: auto;
-}
-iframe{
-  scroll-behavior: auto;
-}
+/*  zooms in on the iframe 2x
+
+iframe {
+         -ms-zoom: 2;
+         -moz-transform: scale(2);
+         -moz-transform-origin: 0 0;
+         -o-transform: scale(2);
+         -o-transform-origin: 0 0;
+         -webkit-transform: scale(2);
+         -webkit-transform-origin: 0 0;
+  }
+
+*/

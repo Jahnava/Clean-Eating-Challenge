@@ -66,7 +66,7 @@ h3 {
     height: 100%;
 }
 .flex-center-center > div{
-  width: 75%;
+  width: 68%;
   font-weight: bold;
   font-size: 5rem;
 text-transform: uppercase;
@@ -113,7 +113,6 @@ border: 1rem solid #E9C46A;
   font-size: 5rem;
   text-transform: uppercase;
   color: #264653;
-  border: 1rem dashed #E76F51;
 }
 .sticky-footer{
   flex: 0 0 auto;
@@ -134,4 +133,15 @@ background:  #2A9D8F;
 
 #pinterest-section {
   background-image: url('/images/veggies.jpeg');
+}
+
+#fitness-section {
+  background-image: url('/images/Beachbody-Flyer.png');
+  background-image: no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
 }
