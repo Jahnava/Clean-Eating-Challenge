@@ -36,7 +36,7 @@ h3 {
   width:100%;
   background:#E76F51;
   padding: 1rem;
-  border: 1rem dashed #E9C46A;
+  border: 1rem solid #E9C46A;
 }
 
 /*order */
@@ -142,6 +142,13 @@ background:  #2A9D8F;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
 
-
+#grocery-list-section {
+  background-image: url('/images/running.jpeg');
+  background-image: no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
