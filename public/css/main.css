@@ -1,6 +1,7 @@
 /*cutsom styling*/
 html,body{
     height: 100%;
+    background-color: orange;
 }
 
 h1, .nav-pills>li>a {
@@ -161,6 +162,7 @@ background:  #2A9D8F;
   -o-background-size: cover;
   background-size: cover;
   height: 30%;
+
 }
 
 #bigImage{
