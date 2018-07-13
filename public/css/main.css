@@ -84,7 +84,7 @@ h3 {
     height: 100%;
 }
 .flex-center-center > div{
-  width: 68%;
+  width: 60%;
   font-weight: bold;
   font-size: 5rem;
 text-transform: uppercase;
@@ -173,14 +173,14 @@ width: 75%;
 /* @media only screen and (max-width: 450px) {
   #fitness-section {
     /* background-image: url('/images/Beachbody-Flyer.png'); */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
     height: 40%;
   }
-} */
+}  */
 
 
 #grocery-list-section {
