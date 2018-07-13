@@ -4,16 +4,31 @@ html,body{
 }
 
 h1, .nav-pills>li>a {
-  color: #264653;
+  /* color: pink; */
   text-transform: uppercase;
   font-weight: bold;
 }
+
+@media (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    /* color: #264653; */
+    font-size: 20px;
+  }
+}
+@media (min-width: 50px) and (max-width: 1000px) {
+  h1, .nav-pills>li>a {
+    /* color: #264653; */
+    font-size: 20px;
+  }
+}
+
+
 h3 {
   color:#2A9D8F;
   text-transform: uppercase;
 }
 .nav-pills>li{
-  background:#E76F51;
+  background:pink;
 
 }
 .nav-pills>li.active>a{
@@ -27,11 +42,13 @@ h3 {
   display:flex;
   flex-direction: row;
   align-items: stretch;
-  with: 100%;
-  background: #F4A261;
+  width: 100%;
   justify-content: space-around;
   padding: 2rem;
 }
+
+
+
 .box {
   width:100%;
   background:#E76F51;
@@ -104,7 +121,7 @@ border: 1rem solid #E9C46A;
   display:flex;
   flex-direction:column;
   height: 90vh;
-  with: 100%;
+  width: 100%;
   background: #F4A261;
 }
 .sticky-content{
@@ -133,16 +150,36 @@ background:  #2A9D8F;
 
 #pinterest-section {
   background-image: url('/images/veggies.jpeg');
+  height: auto;
 }
 
 #fitness-section {
-  background-image: url('/images/Beachbody-Flyer.png');
-  background-image: no-repeat fixed;
+  /* background-image: url('/images/Beachbody-Flyer.png'); */
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 30%;
 }
+
+#bigImage{
+height: auto;
+width: 75%;
+}
+
+/* @media only screen and (max-width: 450px) {
+  #fitness-section {
+    /* background-image: url('/images/Beachbody-Flyer.png'); */
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 40%;
+  }
+} */
+
 
 #grocery-list-section {
   background-image: url('/images/running.jpeg');
