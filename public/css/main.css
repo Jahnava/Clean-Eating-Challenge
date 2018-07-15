@@ -1,7 +1,7 @@
 /*cutsom styling*/
 html,body{
     height: 100%;
-    background-color: orange;
+    background-color: white;
 }
 
 h1, .nav-pills>li>a {
@@ -130,7 +130,7 @@ border: 1rem solid #E9C46A;
   font-weight: bold;
   font-size: 5rem;
   text-transform: uppercase;
-  color: #264653;
+  /* color: #264653; */
 }
 .sticky-footer{
   flex: 0 0 auto;
@@ -165,7 +165,7 @@ background:  #2A9D8F;
 
 }
 
-#bigImage{
+.bigImage{
 height: auto;
 width: 75%;
 }
@@ -183,11 +183,17 @@ width: 75%;
 }  */
 
 
-#grocery-list-section {
+#meal-plan-example {
   background-image: url('/images/running.jpeg');
   background-image: no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height:auto;
+  /* margin-bottom: 5%; */
+}
+
+#meal-plan-pic {
+  width:100%;
 }
