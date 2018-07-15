@@ -149,6 +149,16 @@ background:  #2A9D8F;
   background-image: url('/images/fruit.jpeg');
 }
 
+#prep-video-two-eating {
+  background-image: url('/images/fruit.jpeg');
+  background-image: no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:auto;
+}
+
 #pinterest-section {
   background-image: url('/images/veggies.jpeg');
   height: auto;
