@@ -146,6 +146,10 @@ background:  #2A9D8F;
   height:auto;
 }
 
+#veggie-background{
+  background-image: url('/images/veggie-frame.jpeg');
+}
+
 #pinterest-section {
   background-image: url('/images/veggies.jpeg');
   height: auto;
