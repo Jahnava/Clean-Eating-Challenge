@@ -8,16 +8,6 @@ html {
 }
 
 
-/*  zooms in on the iframe 2x
-
 iframe {
-         -ms-zoom: 2;
-         -moz-transform: scale(2);
-         -moz-transform-origin: 0 0;
-         -o-transform: scale(2);
-         -o-transform-origin: 0 0;
-         -webkit-transform: scale(2);
-         -webkit-transform-origin: 0 0;
-  }
-
-*/
+  margin-top: 2%;
+}

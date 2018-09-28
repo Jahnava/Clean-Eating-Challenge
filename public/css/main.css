@@ -1,11 +1,7 @@
 /*cutsom styling*/
 html,body{
     height: 100%;
-    background: rgb(250,198,149); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba(250,198,149,1) 0%, rgba(239,141,49,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(250,198,149,1) 0%,rgba(239,141,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(250,198,149,1) 0%,rgba(239,141,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac695', endColorstr='#ef8d31',GradientType=0 ); /* IE6-9 */
+background-color: lightgreen;
 }
 
 h1, .nav-pills>li>a {
@@ -27,18 +23,29 @@ h1, .nav-pills>li>a {
   }
 }
 
-
 h3 {
   color:#2A9D8F;
   text-transform: uppercase;
 }
 .nav-pills>li{
-  background:pink;
+  background: #FAD7A0; /* Old browsers */
+  background: -moz-linear-gradient(top, #FAD7A0 41%, #FFEDCC 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #FAD7A0 41%,#FFEDCC 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #FAD7A0 41%,#FFEDCC 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#750023', endColorstr='#8f0222',GradientType=0 ); /* IE6-9 */
+  border: 1px solid white;
+  border-radius: 2px;
+
 
 }
 .nav-pills>li.active>a{
-  background: #F4A261;
+  background: #c0c0c0; /* Old browsers */
+  background: -moz-linear-gradient(top, #F8C471 41%, #FDEBD0 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #F8C471 41%,#FDEBD0 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #F8C471 41%,#FDEBD0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#750023', endColorstr='#8f0222',GradientType=0 ); /* IE6-9 */
 }
+
 .nav-pills>li>a{
   color: #264653;
 }
@@ -56,7 +63,7 @@ h3 {
 
 .box {
   width:100%;
-  background:#E76F51;
+  background:lightgreen;
   padding: 1rem;
   border: 1rem solid #E9C46A;
 }
@@ -279,4 +286,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac695', end
 
 .names:hover {
   color: #22A7F0;
+}
+
+.cleanEatingPic {
+background-image: url('/images/cleanEating.png');
+background-size: cover;
+height: 50%;
 }
