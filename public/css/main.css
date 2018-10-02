@@ -326,3 +326,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f0222', end
 background-image: url('/images/running.jpeg');
 background-size: cover
 }
+
+#lightgreenbackground {
+  background-color: lightgreen;
+}
