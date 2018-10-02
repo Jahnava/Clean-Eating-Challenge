@@ -131,8 +131,8 @@ font-family: 'Pacifico', cursive;
   font-weight: bold;
   font-size: 15px;
   text-transform: uppercase;
-  color: silver;
-background:blue;
+  color: white;
+background:black;
 }
 .label-text{
   font-family: 'Skranji', cursive;
@@ -301,6 +301,10 @@ height: 50%;
 }
 
 .add-height {
-  height: 5%;
+padding-bottom: 100%;
   }
+
+#this-background {
+    background-image: url('/images/fruit.jpeg');
+    background-size: cover;
 }
