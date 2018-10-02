@@ -299,3 +299,8 @@ height: 50%;
   background-size: cover;
   height: 58% auto;
 }
+
+.add-height {
+  height: 5%;
+  }
+}
