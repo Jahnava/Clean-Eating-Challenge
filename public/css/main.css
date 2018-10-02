@@ -293,3 +293,9 @@ background-image: url('/images/cleanEating.png');
 background-size: cover;
 height: 50%;
 }
+
+.clean-welcome-video {
+  background-image: url('/images/clean-eating-video-background.jpeg');
+  background-size: cover;
+  height: 58% auto;
+}
